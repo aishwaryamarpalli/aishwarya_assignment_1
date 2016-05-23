@@ -1,64 +1,47 @@
-/*
-* multi-line comment
-*/
 
-h1, h2, h3, h4{
-    color: orange;
-    font-weight: normal;
-    line-height: 1.1em;
-    margin: 0 0 .5em 0;
+h1,h2{
+    color:white;
+    padding-top: 20px;
 }
-h1{ font-size: 1.7em; }
-h2{ font-size: 1.5em; }
-a{
-    color: black;
-    text-decoration: none;
+h3{
+    font-size:23px;
 }
-
-    a:active{ text-decoration: underline; }
-
-/* you can structure your code's white space so that it is as readable for when you come back in the future or for other people to read and edit quickly */
-
 body{
-    font-family: arial; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: #eee;
-}
-/* you can put your code all in one line like above */
-#page{ margin: 20px; }
+    font-family:BookAntiqua; 
+    font-size: 80%;  
+    width: 100%; 
+    margin: 0; 
+    background:#92C7C7;
+   }
+.form{
 
-/* or on different lines like below */
-#logo{
-    width: 35%;
-    margin-top: 5px;
-    font-family: georgia;
-    display: inline-block;
-}
-/* but try and be as concise as possible */
-#nav{
-    width: 60%;
-    display:block;
-    text-align: center;
-    float: center;
-
+    padding-left: 30px;
 }
 
-         #nav ul li{
-            display: inline-block;
-            height: 62px;
-        }
-        
-            }
-            #nav ul li a{
-                background-color: #ffb424;
-            }
-            #nav ul li a:active{ background-color: #ff8f00; }
+#page{ margin: 50px; }
 
 #content{
-    margin: 30px 0;
-    background: white;
-    padding: 20px;
+    font-size: 15px;
+    background: #92C7C7;
+    padding: 5px;
     clear: both;
     border-image:50%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.img-circle{
+    border-radius:50%;
+    padding-top:15px;
+    margin-top: 25px;
+}
+#pre{
+     
+     font-family:BookAntiqua;
+     font-size:30px;
+     padding-left: 30px;
+
 }
 
-#content,
-ul li a{ box-shadow: 0px 1px 1px #999; }
+.p{
+    font-size: 20px;
+}
